@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.home_contant{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+.container-1{
+    width: 900px;
+    margin: 0 auto;
+    color: #ffff;
+
+}
+.home_text{
+    width: 500px;
+}
+.home_text h3{
+    font-size: 40px;
+}
+.home_text h1{
+    font-size: 70px;
+    line-height: 80px;
+    margin-top: 10px;
+}
+.home_text p{
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 10px;
+
+}
+.home_btn{
+    margin-top: 40px;
+}
+.btn{
+    text-decoration: none;
+    border: none;
+    color: #ffff;
+    font-weight: 700px;
+    border-radius: 30px;
+    padding: 10px;
+    background-color: rgb(255,69,79);
+    cursor: pointer;
+}
+/* About section */
+
+.about{
+    padding: 70px;
+    
+}
+.menu{
+    padding: 70px;
+    
+}
+.row{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* background-color: aqua; */
+    
+}
+.left{
+    /* background-color: olive; */
+    /* width: 500px; */
+    /* margin-left: 90px; */
+    color: black;
+    padding: 45px 0px;
+    
+}
+
+.about_text h3{
+    font-size: 20px;
+}
+.about_text h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin-top: 10px;
+}
+.about_text p{
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 10px;
+   
+}
+.about_btn{
+    margin-top: 40px;
+}
+.right{
+    
+    width: 100%;
+    /* overflow: hidden; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/images/pizza.jpg);
+    /* background-color: blue; */
+    background-position: center;
+    /* margin-left: 10px; */
+
+}
+/* Shop section */
+.shop{
+    width: 100%;
+    height: 450px;
+    background-image: url(/images/bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.shop_text{
+    height: 450px;
+    display: flex;
+    align-items: center;
+    width: 350px;
+    justify-content: center;
+    margin: 0 auto;
+    color: white;
+}
+.shop_text h1{
+    font-size: 45px;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+.shop_btn{
+    margin: 15px 5rem;
+   
+}
+.menu_margin{
+    margin-left: 20px;
+}
+/* Clients section */
+.clients{
+    height: 200px;
+    /* background-color: blueviolet; */
+}
+
+.row-1{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.clients,.client{
+   
+   text-align: center;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: white;
+   background-color: black;
+}
+.client h1{
+    font-size: 30px;
+    margin-bottom: 15px;
+    font-weight: 400px;
+}
+.client p{
+    font-size: 20px;
+    font-weight: 400px;
+}
+.prices{
+    /* width: 100%; */
+    /* height: 400px; */
+  
+    width: 100%;
+    padding: 80px 0;
+    
+}
+.row-2{
+    color: black;
+    
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.price{
+    color: black;
+   /* width: 100%; */
+   padding: 20px;
+}
+.image-1{
+    width: 250px;
+    height: 220px;
+    background-image: url(/images/pizza1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.image-2{
+    width: 250px;
+    height: 220px;
+    background-image: url(/images/pizza2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.image-3{
+    width: 250px;
+    height: 220px;
+    background-image: url(/images/pizza3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.image-4{
+    width: 250px;
+    height: 220px;
+    background-image: url(/images/pizza4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.image-5{
+    width: 250px;
+    height: 220px;
+    background-image: url(/images/pizza5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.image-6{
+    width: 250px;
+    height: 220px;
+    background-image: url(/images/pizza6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.price_heading{
+    margin-top: 20px;
+    text-align: center;
+}
+.price_text{
+    margin-top: 10px;
+    line-height: 1.5rem;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #888888;
+    font-size: 18px;
+}
+.price_rs{
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: 800;
+    text-align: center;
+}
